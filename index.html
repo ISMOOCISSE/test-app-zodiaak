@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEST ZOD</title>
+<link rel="icon" href="icon zodiak.png" sizes="12x12">
+  <style>
+    body {
+      background: rgb(32, 31, 31);
+      height: 1000vh;
+    }
+
+
+    .video-background {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .video-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: black;
+      box-shadow: 0px 0px 4000px 0px rgb(255, 243, 110);
+    }
+
+    .logo {
+      display: inline-block;
+      font-size: 24px;
+      font-weight: bold;
+      margin: 10px;
+      text-decoration: none;
+    }
+
+    .menu {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+    }
+
+    .menu li {
+      display: inline-block;
+      margin: 0;
+    }
+
+    .menu li a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .menu li a:hover {
+      background-color: #f2f2f2;
+    }
+
+    #icon{
+      display: none;
+    }
+  </style>
+
+<script src="
+https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js
+"></script>
+</head>
+
+<body>
+
+<img src="icon zodiak.png" id="icon">
+  <nav class="navbar">
+    <a href="#" class="logo">Mon logo</a>
+    <ul class="menu">
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">À propos</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+
+
+
+
+  <div class="video-background">
+    <div class="video-overlay">
+
+      <center>
+        <h1 style="color: red;align-items: center;">
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        </h1>
+
+
+        <div>
+          <iframe src="https://www.pstream.net/e/87DdaKYqnJdBG4L" width="400" height="300" allowfullscreen="true"
+            webkitallowfullscreen="true" mozallowfullscreen="true" allowtransparency="true" referrerpolicy="no-referrer"
+            scrolling="no" frameborder="0"></iframe>
+
+        </div>
+      </center>
+
+    </div>
+    <video autoplay loop muted>
+      <source src="intro 2.mp4" type="video/mp4">
+    </video>
+  </div>
+
+
+
+<br><br><br><br><br>
+
+
+
+
+
+  <center>
+
+    <button style="background-color: rgba(102, 255, 0, 0.507); color: white; padding: 10px;">Obtenir l'application</button>
+
+<script>
+if (/Mobi/.test(navigator.userAgent)) {
+  // L'utilisateur utilise un appareil mobile
+}
+
+
+var prompt = window.prompt || window.confirm;
+if (prompt("Voulez-vous Obtenir notre Application sur votre écran d'accueil ?")) {
+  // Code pour épingler le site
+}
+
+
+if (window.navigator && window.navigator.standalone) {
+  // L'utilisateur a déjà épinglé le site
+} else {
+  var icon = '';
+  var title = 'ZoDiaK Streaming';
+  var url = 'https://www.facebook.com/PaulYvesHeyTien/videos/2514863312023256';
+  window.addEventListener('load', function() {
+    var addToHomeConfig = {
+      autostart: false,
+      returningVisitor: true,
+      animationIn: 'bubble',
+      animationOut: 'fade',
+      lifespan: 15,
+      expire: 2,
+      touchIcon: true,
+      message: 'Appuyez sur "Partager" puis sur "Épingler sur l\'écran d\'accueil".',
+      arrow: true,
+      messageID: 'addToHomeScreen',
+      customIcon: icon,
+      customAppName: title
+    };
+    addToHomescreen.show(true, addToHomeConfig);
+  });
+}
+
+
+
+</script>
+
+  </center>
+
+
+
+
+
+
+
+</body>
+
+</html>
